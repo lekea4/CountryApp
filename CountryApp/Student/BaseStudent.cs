@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CountryApp.Student
 {
-    class BaseStudent : IStudent
+    abstract class BaseStudent : IStudent
     {
         public string SchoolName { get ; set ; }
         public string Course { get ; set ; }
